@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Header
- * This program will assign a random number to the variable n each time it is executed
- * print whether the number stored in the variable n is positive or negative
+ * Main- Entry point
+ * Description - Assigning a variable positive or negative
+ *Return: Always 0(Success)
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if(n==0)
-		printf("n is zero\n");
+		printf("n is zero: %d\n", n);
 	if(n>0)
 		printf("n is positive\n");
 	if(n<0)
