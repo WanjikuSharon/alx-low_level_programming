@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *
- * main - Task 3 prints the alphabet in lowercase, and then in uppercase
- *
+ * Main - Entry point
+ * Description - Task 3 prints the alphabet in lowercase, and then in uppercase
  * followed by a new line
  *
  * Return: 0
