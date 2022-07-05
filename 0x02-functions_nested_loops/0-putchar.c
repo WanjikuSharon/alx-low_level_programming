@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * Main- Entry point
  * Description- Program that _putchar followed by new line
  *
  * Return: Always 0(Success)
  */
-int main()
+int _putchar(char c)
 {
-	printf("_putchar\n");
+	writes("_putchar\n");
 	return (0);
 }
