@@ -1,12 +1,20 @@
-#include <main.h>
+#include "main.h"
 /**
- * Main- Entry point
- * Description- Program that _putchar followed by new line
+ * main-Entry point
  *
- * Return: Always 0(Success)
+ * Return: nothing, return void
  */
-int _putchar(char c)
+int main(void)
 {
-	writes("_putchar\n");
-	return (0);
+_putchar(_);
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
+return(0);
 }
