@@ -1,20 +1,30 @@
 #include "main.h"
 /**
-* string_toupper - Changes all lowercase letters to uppercase
-* @p: The string will be modified
-* Return: char var.
+* cap_string - capitalizes all words of a string
+* @s: input string.
+* Return: the pointer to dest.
 */
-char *string_toupper(char *p)
+char *cap_string(char *s)
 {
-	int a = 0;
+	int n = 0;
+	int i;
+	int cap_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-	while (p[a])
+	if (*(s + n) >= 97 && *(s + n) <= 122)
+		*(s + n) = *(s + n) - 32;
+	n++;
+	while (*(s + n) != '\0')
 	{
-		if (p[a] >= 97 && p[a] <= 122)
+		for (i = 0; i < 13; i++)
 		{
-			p[a] -= 32;
+			if (*(s + n) == cap_words[i])
+			{
+				if ((*(s + (n + 1)) >= 97) && (*(s + (n + 1)) <= 122))
+					*(s + (n + 1)) = *(s + (n + 1)) - 32;
+				break;
+			}
 		}
-		a++;
+		n++;
 	}
-	return (p);
+	return (s);
 }
