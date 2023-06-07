@@ -30,4 +30,6 @@
     - Prototype: void print_to_98(int n);
     - Numbers must be separated by a comma, followed by a space
     - Numbers should be printed in order
+    - The first printed number should be the number passed to your function
+    - 
  - 10
