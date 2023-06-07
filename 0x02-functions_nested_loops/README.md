@@ -33,4 +33,4 @@
     - The first printed number should be the number passed to your function
     - The last printed number should be 98
     - You are allowed to use the standard library
- - 100-times_table.c - 
+ - 100-times_table.c - a function that prints the n times table, starting with 0
