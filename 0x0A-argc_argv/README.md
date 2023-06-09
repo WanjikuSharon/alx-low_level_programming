@@ -1,6 +1,6 @@
 0x0A. C - Argc, argv
 
-Resources To be updated once I know how to attach documnets
+Resources To be updated once I know how to attach documnets or url
 
 Tasks
 - 1-args.c - A program that prints its name, followed by a new line
