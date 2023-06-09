@@ -10,7 +10,8 @@ Tasks
 - 2-args.c - A program that prints the number of arguments passed into it.
     - Your program should print a number, followed by a new line.
     - Compile the code this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-args.c -o nargs`
-- 3-mul.c - 
+- 3-mul.c - A program that multiplies two numbers.
+    
 - 4-ad.c - 
 - 100-change.c - 
 
