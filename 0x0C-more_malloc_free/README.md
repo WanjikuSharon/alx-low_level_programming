@@ -29,3 +29,4 @@ if malloc fails, the malloc_checked function should cause normal process termina
     - if NULL is passed, treat it as an empty string
 
  - 2-calloc.c
+   - Write a function that allocates memory for an array, using malloc
