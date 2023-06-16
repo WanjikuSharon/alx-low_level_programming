@@ -34,3 +34,4 @@ if malloc fails, the malloc_checked function should cause normal process termina
      - The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
      - The memory is set to zero
      - If nmemb or size is 0, then _calloc returns NULL
+     - If malloc fails, then _calloc returns NULL
