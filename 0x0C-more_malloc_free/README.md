@@ -33,3 +33,4 @@ if malloc fails, the malloc_checked function should cause normal process termina
      - Prototype: void *_calloc(unsigned int nmemb, unsigned int size);
      - The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
      - The memory is set to zero
+     - If nmemb or size is 0, then _calloc returns NULL
