@@ -43,4 +43,5 @@ if malloc fails, the malloc_checked function should cause normal process termina
      - Return: the pointer to the newly created array
      - If min > max, return NULL
      - If malloc fails, return NULL
-- 
+- 100-realloc.c
+- 101-mul.c
