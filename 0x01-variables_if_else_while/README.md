@@ -1,4 +1,4 @@
-0-positive_or_negative.c - This program will assign a random number to the variable n each time it is executed. The output of the program should be:
+0-positive_or_negative.c - This program will assign a random number to the variable n each time it is executed. The output of the program should be: 
 - The number, followed by
   - if the number is greater than 0: is positive
   - if the number is 0: is zero
